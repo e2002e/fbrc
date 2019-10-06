@@ -22,17 +22,17 @@ count = 0
 cs = "0123456789"
 
 print "One million recovery code to test, be patient"
-for index[0] in numba.prange(10):
-        for index[1] in numba.prange(10):
-                for index[2] in numba.prange(10):
-                        for index[3] in numba.prange(10):
-                                for index[4] in numba.prange(10):
+for index[0] in range(10):
+        for index[1] in range(10):
+                for index[2] in range(10):
+                        for index[3] in range(10):
+                                for index[4] in range(10):
                                         for index[5] in numba.prange(10):
                                                 #Let it rain !#############################
-                                                for x in numba.prange(6):                 #
+                                                for x in range(6):                 #
                                                         code[x] = cs[(index[x]+rain)%10]  #
                                                         rain += x+1                       #
-                                                for x in numba.prange(1, 7):              #
+                                                for x in range(1, 7):              #
                                                         rain -= x                         #
                                                 rain -= 4                                 #
                                                 ###########################################
