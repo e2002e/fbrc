@@ -4,11 +4,15 @@ fbrc - FaceBook Recovery Cracker
 This software is not indented to be used by 'hackers' or 'crackers' to piss off people or take revenge, it is a proof of concept that unveils a flaw in the way facebook deals with password recovery in the hope that they fix it, if they don't then I'm not to be taken responsible for it, a child could have writen this code. Maybe they'll think about the end user and not about how much they earn.
 
 Prerequisites: 
+
 python2.7 and pip
-access to facebook
-target email
+
+-access to facebook
+
+-target email
 
 pip install socks
+
 pip install numba
 
 Usage:
