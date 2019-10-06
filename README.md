@@ -9,6 +9,7 @@ access to facebook
 target email
 
 pip install socks
+pip install numba
 
 Usage:
 Navigate to the target account and open the (infect) source code of the page, search for the value of USER_ID (something like 10003...)
