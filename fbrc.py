@@ -26,7 +26,7 @@ for index[0] in range(10):
         for index[1] in range(10):
                 for index[2] in range(10):
                         for index[3] in range(10):
-                                for index[4] in range(10):
+                                for index[4] in numba.prange(10):
                                         for index[5] in numba.prange(10):
                                                 #Let it rain !#############################
                                                 for x in range(6):                        #
