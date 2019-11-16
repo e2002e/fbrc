@@ -13,9 +13,12 @@ pip install numba
 
 Usage:
 
-whith vpns (on on host, on in vm)
+whith vpns (one on host, one in vm)
+
 python fbrc.py
-with tor
+
+with tor:
+
 torsocks python fbrc.py
 
 Navigate to the target account and open the source code of the page, search for the value of USER_ID (something like 10003...) copy it.
