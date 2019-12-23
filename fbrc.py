@@ -1,8 +1,6 @@
 #!/usr/bin/python2.7
 import urllib
 import httplib
-import socks
-import socket
 import numba
 
 print "READ README FIRST PLEASE"
