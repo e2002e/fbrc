@@ -4,13 +4,13 @@ fbrc - FaceBook Recovery Cracker
 
 Prerequisites:
 
-python2.7 and pip
+python2.7 and pip2
 
 -access to facebook
 
 -target email
 
-pip install numba urllib httlib
+pip2 install numba urllib httlib
 
 
 Usage:
