@@ -33,6 +33,6 @@ Please don't victimize people.
 Make an effort and read the code (it could be a virus right ?).
 
 Nothing really magical but for the foolishness of facebook's design that allows that: the recovery page is a static url that has the user id and the recovery code as a parameter, that is all and you might understand now how it's easily hacked.
-The password's changing page might expires but you'll usually get the link before it does, so if it fails repeat the whole procedure (from step 1) before filling and issue.
+The password's changing page might expires but you'll usually get the link before it does, so if it fails repeat the whole procedure (from step 2) before filling and issue.
 
 
