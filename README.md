@@ -32,7 +32,7 @@ Notes:
 Please don't victimize people.  
 Make an effort and read the code.  
 
-Nothing really magical but for the foolishness that allows that:  The password's changing page is an url defined by the user ID and the recovery code,  
+The password's changing page is an url defined by the user ID and the recovery code,  
 Instead of bruteforcing the recovery code, we bruteforce the url of this page.  
 
 Note that there might still be an impossibility to change the password because of IP addresses checks,  
