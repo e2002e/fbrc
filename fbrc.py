@@ -26,8 +26,8 @@ for index[0] in range(10):
 						#Let it rain !###############################
 						for x in range(6):							#
 							code[x] = cs[(index[x]+rain)%10]		#
-							rain += x+1								#
-						rain -= (1+2+3+4+5+6)-2						#
+							rain += rain / 10								#
+											#
 						#############################################
 						query = urllib.parse.urlencode({"u":"%s" % user, "n":"%c%c%c%c%c%c" % (code[0], code[1], code[2], code[3], code[4], code[5])})
 						if count % 1000 == 0:
