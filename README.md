@@ -37,4 +37,4 @@ Instead of bruteforcing the page giving the recovery code, we bruteforce the url
 
 Note that there might still be an impossibility to change the password because of IP addresses checks,  
 I don't know if obtaining the recovery page url gives you a precedence over the registered IP, and I don't know about the timeout for this page.
-
+On that behalf, i'd like any report in case of either succes or failure.
