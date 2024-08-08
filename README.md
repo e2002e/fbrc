@@ -3,8 +3,8 @@ fbrc - FaceBook Recovery Cracker
 
 Prerequisites:
 
--access to facebook
--target email or phone number
+- access to facebook
+- target email or phone number
 
 Facebook recovery suffers from a security flaw, that is when user asks for a recovery code, it isn't required to enter this code in the formular for the new password's page to be created.
 Thus it's possible to trigger the recovery process and then bruteforce the recovery url.
