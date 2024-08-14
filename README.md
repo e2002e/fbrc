@@ -15,4 +15,4 @@ You can do this with any software or a simple program that will generate a milli
 
 You must pass the user_id to the `u`parameter, you will find this id in the souce code of the page on the wall of the user, just search for USER_ID.
 
-This curl script is the simplest and will output something only when the code is found, you'll find the code somewhere in the console, just go to the recovery link we just bruteforced using the ID and code in a browser.
+This curl script will output something only when the code is found, you'll find the code somewhere in the console, just go to the recovery link using the ID and code in a browser.
